@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         daoji=findViewById(R.id.textView2);
         mCounTimeUtils=new CounTimeUtils();
+        Log.i("hello", "onCreate: test");
     }
     public class CounTimeUtils {
         private  String daoji;
